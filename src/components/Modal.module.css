@@ -1,0 +1,81 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    border: 1px solid black;
+    top: 0;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    width: 31rem;
+    min-height: 10rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    position: relative;
+    padding: 1rem;
+}
+
+span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 4px 2px;
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+span:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    border-radius: 0 0 0 20px;
+}
+
+
+
+.apagarConfirmar {
+    width: 17rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.opcao {
+    border: none;
+    color: #fff;
+    transition: .2s;
+    cursor: pointer;
+    padding: .5rem 3rem;
+}
+
+#nao {
+    background-color: #696969;
+    border: 1px solid #696969;
+}
+
+#nao:hover {
+    background-color: #fff;
+    color: #696969;
+}
+
+#sim {
+    background-color: #2727d1;
+    border: 1px solid #2727d1;
+}
+
+#sim:hover {
+    background-color: #fff;
+    color: #2727d1;
+}

@@ -1,0 +1,64 @@
+.App {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+.btn {
+    padding: .5rem 3rem;
+    background-color: #27d160;
+    color: #fff;
+    border: 1px solid #27d160;
+    border-radius: 5px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border-color: #27d160;
+    color: #27d160;
+}
+
+.editar {
+    padding: .3rem 1rem;
+    margin-right: .5rem;
+    background-color: #2727d1;
+    border: 1px solid #2727d1;
+}
+
+.editar:hover {
+    background-color: #fff;
+    border-color: #2727d1;
+    color: #2727d1;
+}
+
+.apagar {
+    padding: .3rem 1rem;
+    background-color: #d12727;
+    border: 1px solid #d12727;
+}
+
+.apagar:hover {
+    background-color: #fff;
+    border-color: #d12727;
+    color: #d12727;
+}
+
+table, td, th, tr {
+    border: 1px solid #000;
+}
+
+table {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+td, th {
+    padding: .5rem;
+}
